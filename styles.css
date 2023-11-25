@@ -1,0 +1,375 @@
+#restaurant-website{
+    width: 1728px;
+    height: 6080px;
+    background-color:#000000;
+}
+.nav-bar{
+    width: 1728px;
+    height: 111px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-heading{
+    width: 333px;
+    height: 51px;
+    border: 1px;
+    font-family: Ruda;
+    font-size: 29px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color:  #FFFFFF;
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    color:  #FFFFFF;
+    list-style-type: none;
+}
+.nav-item-indiv{
+    font-family: Ruda;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 159px;
+    height: 28px;
+}
+
+.nav-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.insta-icon{
+    width: 62.33px;
+    height: 43.12px;
+    top: 80.1px;
+   
+}
+.fb-icon{
+    width: 52px;
+    height: 44px;
+    top: 37px;
+   
+}
+.wp-icon{
+    width: 47px;
+    height: 51px;
+    top: 33px;
+   
+}
+
+#intro-section{
+    width: 1786px;
+    height: 1017px;
+    box-shadow: 3px 6px 18px 0px #00000040;
+    background-image: url(.assets/Rectangle 12.svg);
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    
+}
+.intro-section-heading{
+    width: 902px;
+    height: 215px;
+    margin-top: 240px;
+    font-family: Quattrocento;
+    font-size: 101px;
+    font-weight: 700;
+    line-height: 109px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    color:#FFFFFF;
+    margin-left:100px;
+}
+.intro-section-underline{
+    width: 586px;
+    height: 13px;
+    margin-left:100px;
+    background-color: #F24C4C;
+    box-shadow: 3px 6px 18px 0px #00000040;
+    text-align: left;
+    color:#FFFFFF;
+
+}
+.intro-section-content{
+    width: 599px;
+    height: 325px;
+    font-family: Ruda;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    color:#FFFFFF;
+    margin-left:100px;
+}
+.about-us-main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.heading{
+    width: 526px;
+    height: 58px;
+    top: 1216px;
+    margin-left: 599px;
+    font-family: Quattrocento;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#FFFFFF;
+}
+.underline{
+    width: 526px;
+    height: 10px;
+    top: 1289px;
+    margin-left: 599px;
+    text-align: center;
+    background-color: #B62828;
+
+}
+.about-us-underline-2{
+    width: 535px;
+    height: 4px;
+    top: 1404px;
+    left: 193px;
+    background-color: #F24C4C;
+    box-shadow: 3px 6px 18px 0px #00000040;
+    
+}
+.about-us-content{
+    color:#FFFFFF;
+    width: 677px;
+    height: 420px;
+    top: 1421px;
+    left: 193px;
+    font-family: Ruda;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    text-align: left;
+
+}
+.about-us-image{
+    width: 631px;
+    height: 506px;
+    top: 1368px;
+    left: 949px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 74.48%, rgba(0, 0, 0, 0.8) 100%);
+
+}
+
+.menu-heading{
+    width: 526px;
+    height: 58px;
+    top: 1216px;
+    margin-left: 599px;
+    font-family: Quattrocento;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#FFFFFF;
+}
+.menu-underline{
+    width: 526px;
+    height: 10px;
+    top: 1289px;
+    margin-left: 599px;
+    background-color: #B62828;
+
+}
+
+.menu-content{
+    width: 1315px;
+    height: 378px;
+    margin-top: 66px;
+    margin-left: 212px;
+    font-family: Ruda;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    color:white;
+}
+.menu-heading{
+    width: 348px;
+    height: 51px;
+    margin-top: 51px;
+    margin-left: 486px;
+    width: 348px;
+    font-family: Ruda;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+    
+}
+.menu-item{
+    width: 346px;
+    height: 120px;
+    margin-top: 51px;
+    margin-left: 485px;
+    font-family: Ruda;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    color:#FFFFFF;
+
+}
+.menu-box{
+    display: flex;
+    flex-direction: row
+    justify-content: space-around;
+}
+.menu-box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.menu-box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.menu-item-box{
+    display: flex;
+}
+.gallery-images{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+.gallery-image-1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.gallery-image-2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.gallery-image-3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.gallery-image-4{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.gallery-image-5{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.gallery-image-6{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#find-us{
+    width: 474px;
+    height: 52px;
+    top: 4663px;
+    left: -4px;
+    font-family: Quattrocento;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.underline{
+    width: 499px;
+    height: 9px;
+    top: 4733px;
+    left: -7px;
+    background-color:#B62828;
+
+
+}
+.find-us-content{
+    font-family: Ruda;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    width: 640px;
+    height: 181px;
+    top: 4809px;
+    left: -445px;
+    color: #FFFFFF;
+}
+.find-us-contact-details{
+    width: 487px;
+    height: 42px;
+    top: 5104px;
+    left: -345px;
+    font-family: Ruda;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    text-align: left;
+
+}
+.find-us-address{
+    width: 487px;
+    height: 43px;
+    top: 5043px;
+    left: -345px;
+    font-family: Ruda;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    color: #FFFFFF;
+
+
+}
+
+
+.find-us-location-image{
+    width: 685px;
+    height: 438px;
+    top: 4809px;
+    left: 226px;
+    border: 1px solid #000000;
+
+}
+
+
+.find-us-person-image{
+    width: 202.79px;
+    height: 148.96px;
+    top: 5500.47px;
+    left: -524.38px;
+
+}
+#last-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-details-box{
+    display: flex;
+    flex-direction: column;
+}
+.contact-details-box1{
+display: flex;
+flex-direction: row;
+}
+
